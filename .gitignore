@@ -1,0 +1,27 @@
+# Compilation and object files
+*.o
+*.a
+*.so
+*.la
+*.lo
+
+# Build output and staging directories
+build/
+dist/
+rootfs/
+iso/
+work/
+pkg/
+
+# Toolchain temporary archives
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.tgz
+
+# Editor and system clutter
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
